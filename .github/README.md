@@ -87,16 +87,6 @@ con `--corte 2023-07-01` se mueve la ventana. `comparar_ranker.py` compara con e
 | `resultados.md` | registro de todos los experimentos |
 | `ejecutable_NB_colab.ipynb` | notebook de Colab que reproduce todo |
 
-## Reproducibilidad
 
-Los desempates y las semillas son fijos (semilla 42; desempate por SHA-256 del id). En el test se usa el historial de `data/` (termina el
-30/6/2024) y la tabla de empresas del test, que no trae `semestre`. Dos corridas independientes dieron el mismo pool de entrenamiento y la misma
-iteración final del LightGBM en cada vertical.
 
-El `README.md` de la raíz del repo es el enunciado de la cátedra (datos y formato).
-
-## Visibilidad del repositorio
-
-Dejamos el repositorio público a propósito. El ejecutable (`EJECUTABLE.py` y el notebook de Colab) baja el código, los vectores y los datos desde GitHub y desde
-los releases de este repo, y GitHub no permite esas descargas sin iniciar sesión si el repositorio es privado. Público, cualquiera puede reproducir la entrega con un
-solo comando, sin credenciales ni permisos. Además, `bravoivanagustin` y `JHK212` están invitados como colaboradores.
+El `README.md` de la raíz del repo es el -Desafío-
